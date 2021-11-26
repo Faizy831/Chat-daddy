@@ -1,0 +1,20 @@
+.Header-Container {
+  font-family: sans-serif;
+  margin-top: -1rem;
+  .Header-wrapper {
+    .Heading-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .Header-heading {
+        font-weight: 800;
+        font-size: 30px;
+      }
+    }
+    .Add {
+      color: #21a390;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+}

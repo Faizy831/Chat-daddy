@@ -1,0 +1,83 @@
+.list-group {
+  border-radius: 15px;
+  background-color: #f3f5f9;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+
+  .Odd {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20px;
+    cursor: pointer;
+    &:hover .Icon-wrappers .show {
+      display: block;
+    }
+    &:hover .Icon-wrappers .deleteIcon {
+      display: block;
+    }
+  }
+  .Even {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    cursor: pointer;
+    &:hover .Icon-wrappers .show {
+      display: block;
+    }
+    &:hover .Icon-wrappers .deleteIcon {
+      display: block;
+    }
+  }
+  .white {
+    background-color: white;
+    border-radius: 0px;
+    height: 20px;
+    cursor: pointer;
+    &:hover .Icon-wrappers .show {
+      display: block;
+    }
+    &:hover .Icon-wrappers .deleteIcon {
+      display: block;
+    }
+  }
+  .gray {
+    background-color: #f3f5f9;
+    height: 20px;
+    cursor: pointer;
+    &:hover .Icon-wrappers .show {
+      display: block;
+    }
+    &:hover .Icon-wrappers .deleteIcon {
+      display: block;
+    }
+  }
+  .text-conainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .listItemText {
+      font-size: 12px;
+      padding: 10px;
+      font-family: sans-serif;
+      font-weight: 600;
+      color: gray;
+    }
+    .Icon-wrappers {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .deleteIcon {
+        color: red;
+        font-size: 16px;
+        margin: 6px 11px 0px 0px;
+        display: none;
+      }
+      .show {
+        font-size: 16px;
+        color: #21a390;
+        margin: 6px 11px 0px 0px;
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.Drawer-container {
+  display: flex;
+  font-family: sans-serif;
+  .drawer {
+    width: 300px;
+    height: 100%;
+    position: sticky;
+    .drawerInner {
+      padding-left: 10px;
+      position: fixed;
+      padding-right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+      box-shadow: 6px 0 15px -10px #ccc;
+      .Header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        .heaidng-wrapper {
+          display: flex;
+          align-items: center;
+          .filterIcon {
+            color: #c0cada;
+            font-size: 20px;
+            margin-right: 10px;
+            cursor: pointer;
+          }
+          .Audience-text {
+            font-size: 16px;
+            font-weight: 800;
+            margin: 0px;
+          }
+        }
+        .contacts-text {
+          font-size: 14px;
+          color: #c0cada;
+          margin: 0px;
+        }
+      }
+    }
+    .Include-tags-container {
+      .Include-heading {
+        color: black;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+    }
+    .Exclude-tags-container {
+      .Exclude-heading {
+        color: black;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+    }
+    .Message-sent-container {
+      .Message-sent-heading {
+        color: black;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+      .input-wrapper {
+        .Input {
+          width: 110px;
+          height: 40px;
+          margin-right: 10px;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          background-color: #f3f5f9;
+          padding-left: 12px;
+        }
+      }
+    }
+    .Message-Receive-container {
+      .Message-Receive-heading {
+        color: black;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+      .input-wrapper {
+        .Input {
+          width: 110px;
+          height: 40px;
+          margin-right: 10px;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          background-color: #f3f5f9;
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+  .filter-button {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #21a390;
+    border: none;
+    height: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .side-content {
+    padding: 0px 40px 0px 0px;
+    flex: 1;
+  }
+}

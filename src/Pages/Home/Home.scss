@@ -1,0 +1,39 @@
+.Main-container {
+  .Export-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    .Export-btn {
+      background-color: #21a390;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 8px;
+      color: white;
+    }
+    .Icon-wrapper {
+      display: flex;
+      align-items: center;
+      .SelectAllIcon {
+        font-size: 22px;
+        margin-right: 10px;
+        color: #21a390;
+        cursor: pointer;
+      }
+      .UnSelectICon {
+        font-size: 22px;
+        color: #b4c0d3;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      .Select-text {
+        font-weight: 400;
+      }
+    }
+  }
+  .danger-text {
+    color: red;
+    text-align: center;
+    margin: 15rem auto auto auto;
+  }
+}

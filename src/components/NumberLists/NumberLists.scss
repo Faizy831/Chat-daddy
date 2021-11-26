@@ -1,0 +1,58 @@
+.Contacts-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  .Sub-container {
+    flex: 1;
+    .contact-wrapper {
+      display: flex;
+      align-items: center;
+      .Selected {
+        font-size: 22px;
+        color: #21a390;
+        cursor: pointer;
+      }
+      .NotSelected {
+        font-size: 22px;
+        color: #b4c0d3;
+        cursor: pointer;
+      }
+      .Avatar-wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        .Avatar {
+          font-size: 50px;
+          margin-left: 20px;
+          color: #21a390;
+        }
+        .Info-wrapper {
+          margin-left: 10px;
+          .User-name {
+            font-size: 14px;
+            font-weight: 800;
+          }
+          .User-number {
+            font-size: 14px;
+            color: #b4c0d3;
+          }
+        }
+      }
+    }
+    .line {
+      height: 1px;
+      background-color: #b4c0d3;
+      opacity: 0.5;
+      width: 40%;
+      position: absolute;
+      margin-left: 3rem;
+      margin-bottom: 3rem;
+      margin-top: 0.2rem;
+    }
+  }
+  .Add-button {
+    color: #21a390;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
